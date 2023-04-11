@@ -4,16 +4,24 @@
 
 .NavLogo {
     align-items: center;
-    
+    display: flex;
 }
 nav{
     display: flex;
     border: 2px solid black;
+    justify-content: space-between;
+    padding: 1%;
+    flex: 0, 0, auto;
+}
+.NavLogo span{
+    padding-left: 10px;
 }
 
 .NavAccount {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
 
