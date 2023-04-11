@@ -1,5 +1,7 @@
 .MainContainer {
+    border: 5px solid pink;
     font-weight: 100;
+    font-family: sans-serif;
 }
 .navbar {
     border: 5px solid black;
@@ -12,16 +14,21 @@
     display: flex;
     justify-content: space-around;
     
+    
     font-size: 35px;
     font-style: bold;
 }
 .Left{
   border: 5px solid greenyellow;
+  flex-grow: 1 ;
+  height: 500px;
 }
 .Center{
   border: 5px solid blue;
+  flex-grow: 2;
 }
 .Right{
     border: 5px solid yellow;
+    flex-grow: 1;
 
 }
