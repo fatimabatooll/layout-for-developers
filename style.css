@@ -1,0 +1,27 @@
+.MainContainer {
+    font-weight: 100;
+}
+.navbar {
+    border: 5px solid black;
+    height: 100px;
+    font-size: 35px;
+    
+}
+.Content {
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: 35px;
+    font-style: bold;
+}
+.Left{
+  border: 5px solid greenyellow;
+}
+.Center{
+  border: 5px solid blue;
+}
+.Right{
+    border: 5px solid yellow;
+
+}
