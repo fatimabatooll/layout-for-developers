@@ -1,17 +1,26 @@
 .MainContainer {
     font-family: sans-serif;
 }
-.navbar {
-    border: 5px solid black;
-    height: 50px;
-    font-size: 20px;
+
+.NavLogo {
+    align-items: center;
     
 }
+nav{
+    display: flex;
+    border: 2px solid black;
+}
+
+.NavAccount {
+    display: flex;
+    align-items: center;
+    
+}
+
 .Content {
     border: 5px solid red;
     display: flex;
-    font-style: bold;
-    
+    font-style: bold;  
 }
 .Left{
   border: 5px solid greenyellow;
